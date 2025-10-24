@@ -3,8 +3,13 @@ from msrest.authentication import CognitiveServicesCredentials
 from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
 import time
 
-endpoint = "ENTER ENDPOINT HERE"
-key = "ENTER KEY HERE"
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+endpoint = os.environ['ENDPOINT_URL']
+key = os.environ['API_KEY']
 
 credentials = CognitiveServicesCredentials(key)
 

@@ -44,3 +44,9 @@ Optionally extend the API or document it with [Swagger](https://swagger.io).
 - [API Endpoint Best Practices](https://www.telerik.com/blogs/7-tips-building-good-web-api)
 - The file seai-azure-cv-ocr-api.json has the structure to test calls to the Azure Vision API with Postman.
 
+## TODO
+-[x] create account with azure
+-[x] rewrite code to load credentials from a file or an environment variable
+-[x] Try curl
+-[x] Try Postman
+-[ ] Document API with Swagger.
