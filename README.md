@@ -49,4 +49,4 @@ Optionally extend the API or document it with [Swagger](https://swagger.io).
 -[x] rewrite code to load credentials from a file or an environment variable
 -[x] Try curl
 -[x] Try Postman
--[ ] Document API with Swagger.
+-[x] Document API with Swagger.
